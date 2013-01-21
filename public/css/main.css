@@ -1,0 +1,27 @@
+* { margin: 0px; padding: 0px; }
+li { list-style: none; }
+body { font-family: Verdana; background-color: #FFF; }
+h1 { font-size: 2em; margin-bottom: 10px; color:#333; }
+h2 { font-size: 1.4em; margin-bottom: 10px; }
+p { margin-bottom: 10px; }
+hr { margin: 20px; }
+
+/* creme: #EFE7E8 || dark creme: #CFB2B3 || light green: #D2DEC8  */
+
+#content { width: 70%; margin: 10px auto; background-color: #EFE7E8; padding: 10px; border: 3px solid #CFB2B3; }
+#results { margin: 10px; border: 1px solid #98C0A8; background-color: #FFF; }
+#collectButton { cursor: pointer; text-align: center; padding: 10px; }
+
+#attribution { text-align: center; margin: 10px; margin-top: 50px; font-size: .8em; }
+
+form label { cursor: pointer; display: block; font-weight: bold; margin-bottom: 10px; }
+form input { margin-left: 10px;}
+textarea#document { width: 80%; height: 300px; margin-left: 10%; }
+
+div.instructions { margin: 10px; padding: 10px; border: 2px solid #EDA659; background-color: #FFD98C;}
+div.instructions p { font-size: .9em; }
+
+div.tweets { padding: 10px; }
+div.tweets span.verified { color: #060; }
+div.tweets span.unverified { color: #600; }
+div.tweets span.empty { background-color: #666; }
